@@ -1,0 +1,12 @@
+PROJECT_NAME           = "SnakeGame"
+PROJECT_BRIEF          = "Console Snake Game - documented with Doxygen"
+OUTPUT_DIRECTORY       = docs
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+RECURSIVE              = YES
+INPUT                  = core engine
+FILE_PATTERNS          = *.hpp *.cpp
+EXTRACT_ALL            = YES
+QUIET                  = YES
+WARN_IF_UNDOCUMENTED   = YES
+WARN_NO_PARAMDOC       = NO
